@@ -7,3 +7,4 @@ This repo contains tutorial translate python code to c++.
 - [ ] 右值引用
 - [ ] 返回值优化
 - [ ] move函数
+- [ ] 字符串比较
