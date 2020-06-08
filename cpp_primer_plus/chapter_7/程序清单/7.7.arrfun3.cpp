@@ -40,7 +40,7 @@ int fill_array(double ar[], int limit)
 {
     using namespace std;
 
-    double temp;
+    char temp;
 
     int i;
     for (i = 0; i < limit; i++)
