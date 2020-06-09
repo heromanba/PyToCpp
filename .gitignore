@@ -2,3 +2,6 @@ libtorch/
 *.zip
 build/
 *.out
+*.ii
+*.o
+*.s
