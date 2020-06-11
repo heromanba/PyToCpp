@@ -22,6 +22,10 @@ int main()
         stock2.show();
 
         cout << "Using a constructor to reset an object\n";
+
+        // 1. call constructor to create a temporary object;
+        // 2. copy temporary object's member variables to `stock1`;
+        // 3. call deconstructor to delete the temporary object.
         stock1 = Stock("Nifty Foods", 10, 50.0);    // temp object
         cout << "Revised stock1:\n";
         stock1.show();

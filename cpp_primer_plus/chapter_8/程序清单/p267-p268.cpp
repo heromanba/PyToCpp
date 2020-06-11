@@ -38,6 +38,10 @@ int main()
 
     const free_throws & jolly = clone(three);
 
+    // `three` and `jolly` has the same address.
+    cout << " &three = " << &three << endl;
+    cout << " &jolly = " << &jolly << endl;
+
     const free_throws & jolly2 = clone2(three);
     
     //  &jolly2 = 0
