@@ -13,14 +13,27 @@ public:
 
 };
 
+class B: public A
+{
+public:
+    B():j(20) {}
+    virtual void f() { cout << "B::f()" << j << endl; }
+
+    int j;
+};
 
 int main()
 {
     A a;
-    a.f();
-    cout << sizeof(a) << endl;
+    B b;
 
-    int *p = (int*)&a;
-    p += 2;
-    cout << *p << endl;
+    A* p = &a;
+
+    int* r = (int*)&a;
+    int* t = (int*)&b;
+
+    *r = *t;
+
+    p->f();
+    return 0;
 }
