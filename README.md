@@ -14,3 +14,5 @@ This repo contains tutorial translate python code to c++.
 |     syntax            |  description |
 | --------------------: |-------------:| 
 | ``` const char * s``` | char类型的指针 |
+
+![](微信图片_20200707095044.jpg)
